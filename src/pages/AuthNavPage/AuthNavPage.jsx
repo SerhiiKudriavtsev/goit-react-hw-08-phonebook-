@@ -32,6 +32,8 @@ const WithBackgroundImage = () => {
             fontWeight={700}
             lineHeight={1.2}
             fontSize={useBreakpointValue({ base: '3xl', md: '4xl' })}
+            textShadow='#000 1px 0 0px, #000 0 1px 0px, #000 -1px 0 0px, #000 0 -1px 0px'
+            filter= 'drop-shadow(3px 3px 2px #000)'
           >
             Welcome to the phone book. <br />
             If you are a new user, please register. <br />

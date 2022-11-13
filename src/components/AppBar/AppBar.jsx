@@ -7,7 +7,7 @@ import { Box, Flex, useColorModeValue } from '@chakra-ui/react';
 const AppBar = () => {
   return (
     <Box bg={useColorModeValue('gray.100', 'gray.900')} px={4}>
-      <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
+      <Flex h={16} w={400} mx={'auto'} alignItems={'center'} justifyContent={'space-between'}>
         <Navigation />
         <UserMenu />
       </Flex>

@@ -22,7 +22,7 @@ const UserMenu = () => {
           onClick={() => {
             userLogout();
           }}
-          w={60}
+          w={50}
           _hover={{
           transform:"scale(1.02)",
           color: "red",

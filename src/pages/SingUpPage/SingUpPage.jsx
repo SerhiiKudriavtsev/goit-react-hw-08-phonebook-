@@ -47,9 +47,9 @@ const SignupView = () => {
   const handleSubmit = async event => {
     event.preventDefault();
     await userSignup({ name, email, password });
-    setName('');
-    setEmail('');
-    setPassword('');
+    // setName('');
+    // setEmail('');
+    // setPassword('');
   };
 
   let navigate = useNavigate();
